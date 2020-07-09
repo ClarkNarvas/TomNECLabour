@@ -1,0 +1,172 @@
+
+
+.navigation {
+  background-color: #e73636; text-align: center;
+}
+
+@font-face {
+font-family: 'LotaRegular';
+src: url('assets/fonts/Los Andes  Lota Grotesque Alt 3 Regular.otf');
+}
+
+
+@font-face {
+font-family: 'LotaBold';
+src: url('assets/fonts/Los Andes  Lota Grotesque Alt 3 Bold.otf');
+}
+
+@font-face {
+font-family: 'Bebas';
+src: url('assets/fonts/BebasNeue-Regular.otf');
+}
+
+p {
+  font-family: 'LotaRegular';
+}
+
+h1 {
+  font-family: 'Bebas';
+}
+
+h2 {
+  font-family: 'Bebas';
+}
+
+h3 {
+  font-family: 'Bebas';
+}
+#one {
+  background-color: #e73636;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+::selection {
+  background: #ffec83;
+  color: black;
+}
+
+.frontbox {
+}
+
+.title {
+}
+
+.padding {
+  padding-top: 50px;
+}
+
+.navbar {
+  background-color: #e73636 !important;
+}
+
+.center {
+  text-align: center;
+}
+.nav-item {
+  font-family: LotaBold;
+}
+
+.promotion {
+  padding-top: 20px;
+  background-color: #ffec83;
+  height: 150px;
+}
+
+.texthighlight {
+  color: #e73636;
+}
+
+.button {
+  border-radius: 5px;
+  font-family: 'LotaBold';
+  background-color: #e73636;
+  text-decoration: none;
+  font-size: 100%;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  margin-top: 10px;
+  transition: linear 0.2s;
+}
+
+.button:hover {
+  background-color: #FC7979;
+  color: white;
+  text-decoration: none;
+}
+
+
+#meettommy {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#pledges {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #702323;
+}
+
+
+#endorsements {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+#calltoarms {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #ffec83;
+}
+
+#calltoarms h1 {
+  font-size: 300%;
+}
+
+.card {
+  background-color: #ffec83;
+}
+
+@media only screen and (max-width: 800px) {
+
+  #logo {
+    display: none !important;
+  }
+
+  #coverlogo {
+    height: 200px !important;
+  }
+}
+
+#mc_embed_signup_scroll {
+  background-color: #ffec83;
+}
+
+#mc_embed_signup_scroll label {
+  font-family: 'LotaRegular'
+}
+
+#footer {
+  background-color: #2E2E2E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#footer p {
+  text-align: center;
+  color: white;
+}
+
+a {
+  font-family: 'LotaRegular';
+  text-align: center;
+}
