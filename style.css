@@ -89,7 +89,7 @@ h3 {
   background-color: #e73636;
   text-decoration: none;
   font-size: 100%;
-  color: white;
+  color: white !important;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
@@ -147,6 +147,18 @@ h3 {
   #coverlogo {
     height: 200px !important;
   }
+
+  #campaign-left h1 {
+    font-size: 300% !important;
+    float: none !important;
+    text-align: center;
+  }
+
+   h1.largefont {
+    font-size: 300% !important;
+    float: none !important;
+    text-align: center;
+  }
 }
 
 #mc_embed_signup {
@@ -162,6 +174,8 @@ h3 {
   font-family: 'LotaRegular'
 }
 
+
+
 #footer {
   background-color: #2E2E2E;
   padding-top: 10px;
@@ -176,4 +190,28 @@ h3 {
 a {
   font-family: 'LotaRegular';
   text-align: center;
+}
+
+#campaign-left h1 {
+  font-size: 500%;
+}
+
+h1.largefont {
+  font-size: 500%;
+}
+
+
+#campaignforme {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#survey {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.normalfontbold {
+  font-family: 'LotaBold';
 }
