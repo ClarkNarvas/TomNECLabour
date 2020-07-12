@@ -1,5 +1,7 @@
 
-
+body {
+  font-family: 'LotaRegular';
+}
 .navigation {
   background-color: #e73636; text-align: center;
 }
@@ -35,6 +37,16 @@ h2 {
 h3 {
   font-family: 'Bebas';
 }
+
+#meettommyright {
+  margin-top: 5%;
+  margin-left: 35px;
+}
+
+#madebyyouright {
+  margin-top: 5%;
+  margin-left: 35px;
+}
 #one {
   background-color: #e73636;
   height: 60vh;
@@ -45,16 +57,18 @@ h3 {
   text-align: center;
 }
 
+.btn {
+  font-family: LotaBold;
+  vertical-align: middle;
+}
 ::selection {
   background: #ffec83;
   color: black;
 }
 
-.frontbox {
-}
 
-.title {
-}
+
+
 
 .padding {
   padding-top: 50px;
@@ -99,6 +113,13 @@ h3 {
   transition: linear 0.2s;
 }
 
+.boxed {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  color: black;
+}
 .button:hover {
   background-color: #FC7979;
   color: white;
@@ -107,8 +128,7 @@ h3 {
 
 
 #meettommy {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  background-color: #F8E0E0;
 }
 
 #pledges {
@@ -134,10 +154,28 @@ h3 {
   font-size: 300%;
 }
 
+#madebyyoupromo {
+  height: 500px;
+}
 .card {
   background-color: #ffec83;
 }
 
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+p {
+  font-size: 130%;
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 @media only screen and (max-width: 800px) {
 
   #logo {
@@ -157,6 +195,21 @@ h3 {
    h1.largefont {
     font-size: 300% !important;
     float: none !important;
+    text-align: center;
+  }
+
+  #promotion {
+    height: 500px !important;
+  }
+  #meettommy {
+    text-align: center;
+  }
+
+  h3.largecardcenter {
+    text-align: center;
+  }
+
+  #madebyyou {
     text-align: center;
   }
 }
@@ -190,17 +243,29 @@ h3 {
 a {
   font-family: 'LotaRegular';
   text-align: center;
+  font-size: 130%;
 }
 
 #campaign-left h1 {
   font-size: 500%;
 }
 
-h1.largefont {
+h1 {
   font-size: 500%;
 }
 
+h2 {
+  font-size: 350%;
+}
 
+h3 {
+  font-size: 300%;
+}
+
+
+h4 {
+  font-size: 250%;
+}
 #campaignforme {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -214,4 +279,9 @@ h1.largefont {
 
 .normalfontbold {
   font-family: 'LotaBold';
+}
+
+#notification {
+  position: fixed;
+  z-index: 100;
 }
