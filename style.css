@@ -168,6 +168,13 @@ h3 {
   overflow: hidden;
 }
 
+.fill img {
+  transition: ease 0.5s;
+}
+.fill img:hover {
+  transform: scale(1.15);
+  transition: ease 0.5s;
+}
 p {
   font-size: 130%;
 }
@@ -212,8 +219,19 @@ p {
   #madebyyou {
     text-align: center;
   }
+
+  #mobilepiccol {
+    display: block !important;
+  }
+
+  #picturecoll1 {
+    display: none;
+  }
 }
 
+#mobilepiccol {
+  display: none;
+}
 #mc_embed_signup {
   background-color: #ffec83;
 }
@@ -284,4 +302,9 @@ h4 {
 #notification {
   position: fixed;
   z-index: 100;
+}
+
+.card ::selection {
+  background-color: #e73636;
+  color: white;
 }
