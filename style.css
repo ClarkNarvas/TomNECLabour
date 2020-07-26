@@ -137,7 +137,6 @@ h3 {
 
 #pledges {
   padding-top: 70px;
-  padding-bottom: 70px;
   background-color: #702323;
 }
 
@@ -189,9 +188,6 @@ p {
 }
 @media only screen and (max-width: 800px) {
 
-  #logo {
-    display: none !important;
-  }
 
   #coverlogo {
     height: 200px !important;
@@ -231,8 +227,50 @@ p {
   #picturecoll1 {
     display: none;
   }
+
+  #picturecoll1 {
+    display: none;
+  }
+
+  .cardleftimagerep {
+    height: 400px !important;
+  }
+
+  #meettommyright {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #homepledgecardreadmore {
+    height: 200px !important;
+  }
+
+  .padding-mobileremove {
+    padding-top: 0 !important;
+  }
 }
 
+@media only screen and (max-width: 1146px) {
+  h1 {
+    font-size: 400% !important;
+  }
+
+  h2 {
+    font-size: 320% !important;
+  }
+
+  h3 {
+    font-size: 270% !important;
+  }
+
+  h4 {
+    font-size: 250% !important;
+  }
+
+  p {
+    font-size: 130% !important;
+  }
+}
 #mobilepiccol {
   display: none;
 }
@@ -319,5 +357,50 @@ h4 {
   height: 400px;
   flex-direction: column;
   justify-content: center;
+  
+}
+
+.widebutton {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-size: 300%;
+  background-color:  #ffec83;
+  text-align: center;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.nodeco {
+  display: flex;
+}
+
+
+#socials {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.socialcard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 400px;
+}
+
+.socialcard img {
+  text-align: center;
+}
+
+.socialcard h2 {
+  padding-top: 10px;
+  color: white;
+}
+
+#logo {
   
 }
